@@ -30,3 +30,7 @@
 
 # Debug files
 *.dSYM/
+
+# Binary files
+rfcomm-client
+rfcomm-server
