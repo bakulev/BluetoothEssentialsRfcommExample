@@ -28,12 +28,14 @@ On the other side execute
 On one side
 ```
 $ ./rfcomm-client
+$
 ```
 On the other
 ```
 $ ./rfcomm-server 
 accepted connection from 12:34:56:78:90:AB
 received [hello!]
+$
 ```
 Where "12:34:56:78:90:AB" is a bluetooth address of the first side.
 
@@ -42,3 +44,4 @@ Set the approprite bluetooth address in rfcomm-client.c in line
 ```
 char dest[18] = "01:23:45:67:89:AB";
 ```
+Server must be run prior to client.
