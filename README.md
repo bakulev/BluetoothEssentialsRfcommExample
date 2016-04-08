@@ -23,6 +23,20 @@ On the other side execute
 ./rfcomm-server
 ```
 
+## Result
+
+On one side
+```
+$ ./rfcomm-client
+```
+On the other
+```
+$ ./rfcomm-server 
+accepted connection from 12:34:56:78:90:AB
+received [hello!]
+```
+Where "12:34:56:78:90:AB" is a bluetooth address of the first side.
+
 ## P.S.
 Set the approprite bluetooth address in rfcomm-client.c in line 
 ```
